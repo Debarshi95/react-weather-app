@@ -12,7 +12,8 @@ function Form(props) {
           placeholder="Enter a city name"
           required
         />
-        <label className="labels">Country: </label>
+        <br />
+        <label className="labels left">Country: </label>
         <input
           type="text"
           name="country"
@@ -20,6 +21,7 @@ function Form(props) {
           placeholder="Enter country name"
           required
         />
+        <br />
         <button type="submit" className="btn-submit">
           Get Details
         </button>

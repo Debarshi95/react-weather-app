@@ -47,7 +47,7 @@ class App extends Component {
   render() {
     return (
       <div className="card">
-        <p className="p">Get Weather Details</p>
+        <p className="p">Weather Details</p>
         <Form getWeatherData={this.getWeatherData} />
         <Weather
           temperature={this.state.temperature}

@@ -19,20 +19,28 @@ body {
   background-color: green;
 }
 .form {
-  display: inline;
+  display: block;
+
 }
 .labels {
   font-weight: 800px;
 }
+.left{
+  margin-left: -29px;
+}
 .input,
 input[type="text"] {
-  width: 30%;
+  
+  padding-left:5px;
+  width: 60%;
   height: 25px;
-  margin: 30px 10px;
+  margin: 8px ;
   outline: none;
+  border:2px solid #000;
   border-radius: 3px;
 }
 .btn-submit {
+  margin-top: 10px;
   background-color: green;
   border: green;
   border-radius: 3px;
@@ -40,8 +48,10 @@ input[type="text"] {
   height: 40px;
   color: #fff;
   outline: none;
+
 }
 .p-response {
   text-decoration: underline;
-  font-weight: 700;
+  margin:15px; 
+  font-weight: 500;
 }
