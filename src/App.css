@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  background-color: tomato;
+}
+.card {
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  background-color: #f9f9f9;
+  margin-left: 400px;
+  margin-top: 90px;
+  border-radius: 3px;
+}
+.p {
+  padding: 20px;
+  color: #fff;
+  background-color: green;
+}
+.form {
+  display: inline;
+}
+.labels {
+  font-weight: 800px;
+}
+.input,
+input[type="text"] {
+  width: 30%;
+  height: 25px;
+  margin: 30px 10px;
+  outline: none;
+  border-radius: 3px;
+}
+.btn-submit {
+  background-color: green;
+  border: green;
+  border-radius: 3px;
+  width: 110px;
+  height: 40px;
+  color: #fff;
+  outline: none;
+}
+.p-response {
+  text-decoration: underline;
+  font-weight: 700;
+}
