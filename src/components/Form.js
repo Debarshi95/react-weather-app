@@ -17,7 +17,7 @@ function Form(props) {
           type="text"
           name="country"
           className="input"
-          placeholder="Enter a country name"
+          placeholder="Enter country name"
           required
         />
         <button type="submit" className="btn-submit">
